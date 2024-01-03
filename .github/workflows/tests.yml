@@ -5,9 +5,9 @@ name: Tests
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master,2023-11-29-issue31-websockethttpproxy-fixpytest ]
   pull_request:
-    branches: [ master ]
+    branches: [ master,2023-11-29-issue31-websockethttpproxy-fixpytest ]
 
 jobs:
   build:
